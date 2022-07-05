@@ -1,17 +1,12 @@
-import './App.css';
+import './style/App.css';
 import { Outlet, Link } from "react-router-dom";
+import BottomCredits from './components/bottomCredits.component';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <p>
-          Welcome to intranet dashboard
-        </p>
-        <Link to="/strass/">Strass</Link>
-        <Link to="/user/">User</Link>
-      </header>
+    <div className="center">
       <Outlet />
+      <BottomCredits />
     </div>
   );
 }

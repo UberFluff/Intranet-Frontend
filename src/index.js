@@ -1,7 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import { BrowserRouter, Routes, Route, Outlet } from "react-router-dom";
-import './index.css';
+
+import './assets/fonts/roboto/Roboto-Medium.ttf';
+import './assets/fonts/roboto/Roboto-Regular.ttf';
+import './style/index.css';
 
 import App from './App';
 import Login from './routes/login.route';

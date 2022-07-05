@@ -1,0 +1,186 @@
+#bottomCredits {
+  font-family: 'Roboto-Regular';
+  position: fixed;
+  font-size: 10px;
+  bottom: 0px;
+  left: 10px;
+  color: #757588;
+  cursor: pointer;
+  user-select: none;
+}
+
+.tooltipSecret {
+  visibility: visible;
+  cursor: default;
+  position: fixed;
+  bottom: 30px;
+  left: 15px;
+  text-align: center;
+  padding: 5px 10px 5px 10px;
+  color: #EDEDED;
+  background-color: #4B4B4B;
+  border-radius: 10px;
+  transition: all .3s;
+}
+
+.grey-textField {
+  font-family: 'Roboto-Regular';
+  border-style: none;
+  display: flex;
+  padding: 15px 20px 15px 20px;
+  background-color: #EDEDED;
+  margin: 5px;
+  color: #4B4B4B;
+  font-size: 15px;
+  border-radius: 25px;
+}
+
+.grey-textField::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #757588;
+  opacity: 1; /* Firefox */
+}
+
+.grey-textField:focus {
+  outline: none;
+}
+
+.textFieldContainer {
+  display: flex;
+  flex-direction: row;
+  align-self: center;
+  justify-content: center;
+}
+
+.searchBar {
+  width: 300px;
+}
+
+.searchHeaderContainer {
+  position: relative;
+  left: 100px;
+}
+
+.textFieldIconContainer {
+  margin-left: -25px;
+  display: flex;
+  flex-direction: row;
+  align-self: center;
+  justify-content: center;
+}
+
+.textFieldIcon {
+  color: #4B4B4B;
+  margin-left: -50px;
+  margin-top: 15px;
+  cursor: pointer;
+}
+
+.button {
+  margin: 5px;
+  position: relative;
+  width: auto;
+  font-family: 'Roboto-Regular';
+  border-style: none;
+  border-radius: 25px;
+  font-size: 20px;
+  padding: 15px 20px 15px 20px;
+  background-color: #4B4B4B;
+  color: #FFF;
+}
+
+.button:active {
+  color: #757588;
+}
+
+.bigTitle {
+  font-family: 'Roboto-Medium';
+  font-size: 48px;
+  text-align: left;
+  color: #4B4B4B;
+}
+
+.titleSubtitle {
+  font-family: 'Roboto-Regular';
+  position: relative;
+  top: -10px;
+  font-size: 14px;
+  text-align: left;
+  color: #4B4B4B;
+}
+
+.tabContainer {
+  font-family: 'Roboto-Regular';
+  margin: 5px 0px 5px 0px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 0px 15px 15px 0px;
+  display: block;
+  text-align: left;
+  cursor: pointer;
+}
+
+.tabActive {
+  color: #FFF;
+  background-color: #4B4B4B;
+}
+
+.tabUnactive {
+  color: #4B4B4B;
+  background-color: #FFF;
+}
+
+.tabIcon {
+  position: relative;
+  left: 20px;
+  top: 2px;
+}
+
+.tabText {
+  position: relative;
+  left: 50px;
+}
+
+.leftIconButton {
+  color: #FFF;
+  position: relative;
+  top: 20px;
+  left: 40px;
+  z-index: 2;
+}
+
+.buttonIcon {
+  padding-left: 40px;
+}
+
+.userlistCardContainer {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  padding: 5px 10px 5px 20px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: #4B4B4B;
+  width: 80%;
+  background-color: #EDEDED;
+  font-family: 'Roboto-Regular';
+  justify-content: space-between;
+}
+
+.userlistCardBucque {
+  font-family: 'Roboto-Medium';
+  font-size: 20px;
+}
+
+.userlistActionContainer {
+  position: relative;
+  right: 10px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  color: #757588;
+}
+
+.userlistActionIcon:hover {
+  color: #4B4B4B;
+}
